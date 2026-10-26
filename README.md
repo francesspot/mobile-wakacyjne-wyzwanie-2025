@@ -6,17 +6,17 @@
 
 > 🎓 Ścieżka mobilna **Wakacyjnego Wyzwania 2025** koła naukowego **KN Solvro** (Politechnika Wrocławska)
 
-Przez całe wakacje rozwijałem jedną aplikację — **Where to Go** 🗺️, w której przeglądasz i zapisujesz miejsca warte odwiedzenia. Co tydzień dochodziła nowa warstwa: stan, nawigacja, baza danych, API, CRUD. Każdy etap jest na osobnej gałęzi.
+Przez cały kurs rozwijałem jedną aplikację — **Where to Go**, służącą do przeglądania i zapisywania miejsc wartych odwiedzenia. Co tydzień dochodziła kolejna warstwa: stan, nawigacja, baza danych, API, CRUD. Każdy etap jest na osobnej gałęzi.
 
 ## 🪜 Etapy
 
-| | Gałąź | Co zrobiłem |
+| # | Gałąź | Co zrobiłem |
 |---|---|---|
-| 1️⃣ | [`1-franciszek-pora`](../../tree/1-franciszek-pora) | Lista miejsc i ekran szczegółów, warstwa danych oddzielona od widgetów |
-| 2️⃣ | [`2-franciszek-pora`](../../tree/2-franciszek-pora) | Zarządzanie stanem na 3 sposoby — `InheritedWidget`, **Flutter Hooks** i **Riverpod** — oraz nawigacja w **GoRouter** |
-| 3️⃣ | [`3-franciszek-pora`](../../tree/3-franciszek-pora) | 🌗 Motyw jasny/ciemny zapamiętywany w `shared_preferences`, lokalna baza **Drift** i ❤️ ulubione |
-| 4️⃣ | [`4-franciszek-pora`](../../tree/4-franciszek-pora) | 🔐 Logowanie i rejestracja, pobieranie, dodawanie i usuwanie miejsc przez **REST API** (Dio) |
-| 5️⃣ | [`5-franciszek-pora`](../../tree/5-franciszek-pora) | Pełny **CRUD** z edycją, 🔎 wyszukiwanie, ↕️ sortowanie, filtr ulubionych i usuwanie przesunięciem palcem |
+| 1 | [`1-franciszek-pora`](../../tree/1-franciszek-pora) | Lista miejsc i ekran szczegółów, warstwa danych oddzielona od widgetów |
+| 2 | [`2-franciszek-pora`](../../tree/2-franciszek-pora) | Zarządzanie stanem na 3 sposoby — `InheritedWidget`, **Flutter Hooks** i **Riverpod** — oraz nawigacja w **GoRouter** |
+| 3 | [`3-franciszek-pora`](../../tree/3-franciszek-pora) | Motyw jasny/ciemny zapamiętywany w `shared_preferences`, lokalna baza **Drift** i ulubione |
+| 4 | [`4-franciszek-pora`](../../tree/4-franciszek-pora) | Logowanie i rejestracja, pobieranie, dodawanie i usuwanie miejsc przez **REST API** (Dio) |
+| 5 | [`5-franciszek-pora`](../../tree/5-franciszek-pora) | Pełny **CRUD** z edycją, wyszukiwanie, sortowanie, filtr ulubionych i usuwanie przesunięciem palcem |
 
 ## 🚀 Uruchomienie
 

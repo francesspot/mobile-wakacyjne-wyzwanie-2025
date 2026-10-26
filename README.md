@@ -1,4 +1,30 @@
+**Polski** | [English](README.en.md)
+
 # Od zera do flutter developera
+
+Kurs programowania mobilnego z Wakacyjnego Wyzwania koła naukowego **KN Solvro**. W trakcie kursu uczestnicy budują **Where to Go** (`where_to_go/`) — aplikację we Flutterze do przeglądania i zapisywania miejsc wartych odwiedzenia.
+
+## Moje rozwiązania
+
+Każda lista jest na osobnej gałęzi o nazwie `{numer_listy}-franciszek-pora`. Gałąź `main` zawiera materiały kursu.
+
+| Lista | Gałąź | Co zrobiłem |
+|-------|-------|-------------|
+| 1 | [`1-franciszek-pora`](../../tree/1-franciszek-pora) | Ekran główny z listą miejsc i ekran szczegółów; warstwa danych oddzielona od widgetów |
+| 2 | [`2-franciszek-pora`](../../tree/2-franciszek-pora) | Zarządzanie stanem w trzech wersjach — `InheritedWidget`, Flutter Hooks i **Riverpod** — oraz nawigacja z **GoRouter** |
+| 3 | [`3-franciszek-pora`](../../tree/3-franciszek-pora) | Motyw jasny/ciemny zapisywany w `shared_preferences`, lokalna baza danych i ulubione |
+| 4 | [`4-franciszek-pora`](../../tree/4-franciszek-pora) | Podłączenie do REST API kursu przez **Dio**: logowanie i rejestracja, pobieranie, dodawanie i usuwanie miejsc |
+| 5 | [`5-franciszek-pora`](../../tree/5-franciszek-pora) | Pełny **CRUD** (z edycją), **wyszukiwanie**, **sortowanie**, filtr „tylko ulubione" i usuwanie przesunięciem (swipe) |
+
+Najnowsza wersja aplikacji jest na gałęzi `5-franciszek-pora`. Uruchomienie:
+
+```bash
+git checkout 5-franciszek-pora
+cd where_to_go
+flutter pub get
+dart run build_runner build --delete-conflicting-outputs
+flutter run
+```
 
 ## Struktura i Harmonogram Kursu
 

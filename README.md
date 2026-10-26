@@ -1,22 +1,24 @@
-**Polski** | [English](README.en.md)
+🇵🇱 **Polski** | 🇬🇧 [English](README.en.md)
 
-# Od zera do flutter developera
+# 📱 Where to Go — aplikacja we Flutterze
 
-Kurs programowania mobilnego z Wakacyjnego Wyzwania koła naukowego **KN Solvro**. W trakcie kursu uczestnicy budują **Where to Go** (`where_to_go/`) — aplikację we Flutterze do przeglądania i zapisywania miejsc wartych odwiedzenia.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white) ![Riverpod](https://img.shields.io/badge/Riverpod-00B4AB)
 
-## Moje rozwiązania
+> 🎓 Ścieżka mobilna **Wakacyjnego Wyzwania 2025** koła naukowego **KN Solvro** (Politechnika Wrocławska)
 
-Każda lista jest na osobnej gałęzi o nazwie `{numer_listy}-franciszek-pora`. Gałąź `main` zawiera materiały kursu.
+Przez całe wakacje rozwijałem jedną aplikację — **Where to Go** 🗺️, w której przeglądasz i zapisujesz miejsca warte odwiedzenia. Co tydzień dochodziła nowa warstwa: stan, nawigacja, baza danych, API, CRUD. Każdy etap jest na osobnej gałęzi.
 
-| Lista | Gałąź | Co zrobiłem |
-|-------|-------|-------------|
-| 1 | [`1-franciszek-pora`](../../tree/1-franciszek-pora) | Ekran główny z listą miejsc i ekran szczegółów; warstwa danych oddzielona od widgetów |
-| 2 | [`2-franciszek-pora`](../../tree/2-franciszek-pora) | Zarządzanie stanem w trzech wersjach — `InheritedWidget`, Flutter Hooks i **Riverpod** — oraz nawigacja z **GoRouter** |
-| 3 | [`3-franciszek-pora`](../../tree/3-franciszek-pora) | Motyw jasny/ciemny zapisywany w `shared_preferences`, lokalna baza danych i ulubione |
-| 4 | [`4-franciszek-pora`](../../tree/4-franciszek-pora) | Podłączenie do REST API kursu przez **Dio**: logowanie i rejestracja, pobieranie, dodawanie i usuwanie miejsc |
-| 5 | [`5-franciszek-pora`](../../tree/5-franciszek-pora) | Pełny **CRUD** (z edycją), **wyszukiwanie**, **sortowanie**, filtr „tylko ulubione" i usuwanie przesunięciem (swipe) |
+## 🪜 Etapy
 
-Najnowsza wersja aplikacji jest na gałęzi `5-franciszek-pora`. Uruchomienie:
+| | Gałąź | Co zrobiłem |
+|---|---|---|
+| 1️⃣ | [`1-franciszek-pora`](../../tree/1-franciszek-pora) | Lista miejsc i ekran szczegółów, warstwa danych oddzielona od widgetów |
+| 2️⃣ | [`2-franciszek-pora`](../../tree/2-franciszek-pora) | Zarządzanie stanem na 3 sposoby — `InheritedWidget`, **Flutter Hooks** i **Riverpod** — oraz nawigacja w **GoRouter** |
+| 3️⃣ | [`3-franciszek-pora`](../../tree/3-franciszek-pora) | 🌗 Motyw jasny/ciemny zapamiętywany w `shared_preferences`, lokalna baza **Drift** i ❤️ ulubione |
+| 4️⃣ | [`4-franciszek-pora`](../../tree/4-franciszek-pora) | 🔐 Logowanie i rejestracja, pobieranie, dodawanie i usuwanie miejsc przez **REST API** (Dio) |
+| 5️⃣ | [`5-franciszek-pora`](../../tree/5-franciszek-pora) | Pełny **CRUD** z edycją, 🔎 wyszukiwanie, ↕️ sortowanie, filtr ulubionych i usuwanie przesunięciem palcem |
+
+## 🚀 Uruchomienie
 
 ```bash
 git checkout 5-franciszek-pora
@@ -25,49 +27,3 @@ flutter pub get
 dart run build_runner build --delete-conflicting-outputs
 flutter run
 ```
-
-## Struktura i Harmonogram Kursu
-
-Kurs został zaprojektowany jako intensywny, 7-tygodniowy program, łączący regularną naukę z praktycznym projektem końcowym.
-
-* **Całkowity czas trwania:** 7 tygodni.
-* **Moduły tematyczne:** 5 tygodni poświęconych na realizację cotygodniowych list zadań.
-* **Projekt Finałowy:** 2 tygodnie przeznaczone na samodzielną realizację projektu końcowego.
-* **Spotkania cykliczne:** Cotygodniowe sesje "Lightning Talks" (20+ minut), poświęcone na omówienie kluczowych zagadnień i sesję Q&A.
-
-## Wymagania
-
-* podstawowa znajomość paradygmatu obiektowego i funkcyjnego
-
-## Spis treści
-
-* Lista 0 (Dart i środowisko).  
-Składnia Darta, instalacja Flutter SDK, IDE i emulator/urządzenie.
-* Lista 1 (Podstawy Fluttera).  
-Widgety Stateless/Stateful, layout, lista miejsc i ekran szczegółów. Generowanie assets i dopracowanie UI — dla chętnych.
-* Lista 2 (Stan i nawigacja).  
-Flutter Hooks, Riverpod, GoRouter.
-* Lista 3 (Dane lokalne i motyw).  
-shared_preferences, motyw jasny/ciemny, lokalna baza (READ + ulubione).
-* Lista 4 (API i autentykacja).  
-HTTP/JSON, logowanie i rejestracja, podpięcie listy miejsc i ulubionych pod API.
-* Lista 5 (Filtrowanie i CRUD).  
-CREATE/EDIT/DELETE, filtrowanie, wyszukiwanie i sortowanie. Upload zdjęć — dla chętnych.
-
-## Projekt
-
-Kulminacja kursu w formie intensywnego, dwutygodniowego sprintu. Celem jest samodzielne zaprojektowanie i zakodowanie w pełni funkcjonalnej aplikacji, która ugruntuje zdobytą wiedzę i stanie się centralnym punktem Twojego portfolio. Tematyka oraz zakres projektu muszą zostać uprzednio skonsultowane i zaakceptowane przez prowadzącego kurs.
-
-## Zasady uczestnictwa w kursie
-
-Aby zapewnić sprawną organizację kursu oraz efektywną komunikację, wszyscy uczestnicy zobowiązani są do przestrzegania poniższych zasad:
-
-* **Komunikacja i Wsparcie:** Platforma Discord jest oficjalnym kanałem komunikacji. W przypadku jakichkolwiek problemów, pytań lub wątpliwości dotyczących materiału, jest to właściwe miejsce do uzyskania pomocy i prowadzenia dyskusji.
-
-* **Organizacja Pracy w Git:** Prace nad zadaniami należy prowadzić na osobnej gałęzi (branch) w systemie Git, stosując format nazewnictwa: `{numer_listy}-{imie}-{nazwisko}`.
-
-* **Zgłaszanie Zadań do Sprawdzenia:** Ukończone zadania należy zgłaszać poprzez utworzenie Pull Requesta na platformie GitHub. Tytuł Pull Requesta musi być zgodny ze schematem: `{numer_listy}-{imie}-{nazwisko}` oraz w opisie pull requesta powinny być załączone screenshoty pokazujące stworzone UI. Pipeline (CI/CD) powiązany z Pull Requestem musi przechodzić poprawnie – wszystkie jego kroki muszą świecić się na zielono.
-
-* **Chronologia Realizacji Zadań:** Poszczególne listy zadań (moduły) muszą być realizowane w porządku chronologicznym. Ukończenie i zaliczenie danej listy jest warunkiem koniecznym do rozpoczęcia pracy nad kolejną.
-
-* **Terminowość:** Każda lista zadań posiada termin na jej ukończenie, wyznaczony przez prowadzącego kurs. W przypadku przewidywanego opóźnienia, uczestnik jest zobowiązany do wcześniejszego poinformowania o tym fakcie prowadzącego wraz z podaniem przyczyny.
